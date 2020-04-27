@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/text_view_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Android"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+    <TextView
+        android:id="@+id/text_view_login_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Sign Up"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_view_login"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_view_login_sign_up"
+        android:hint="First Name"
+        android:layout_margin="20dp"
+        android:textColor="#ffff"
+        android:id="@+id/edit_text_FirstName"
+        android:textColorHint="#ffff"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient2"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/text_view_login_sign_up"
+        android:id="@+id/button_firstname"
+        android:alpha=".3"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_FirstName"
+        android:hint="Email address"
+        android:layout_margin="20dp"
+        android:textColor="#ffff"
+        android:id="@+id/edit_text_email"
+        android:textColorHint="#ffff"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient2"
+        app:layout_constraintTop_toBottomOf="@id/button_firstname"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/button_email"
+        android:alpha="0.3"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/button_email"
+        android:layout_margin="20dp"
+        android:hint="Your Login"
+        android:textColorHint="#ffff"
+        android:id="@+id/edit_yourlogin"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient2"
+        app:layout_constraintTop_toBottomOf="@id/button_email"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/button_yourlogin"
+        android:alpha="0.3"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edit_yourlogin"
+        android:layout_margin="20dp"
+        android:hint="Your password"
+        android:textColorHint="#ffff"
+        android:id="@+id/edittext_yourpassword"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient2"
+        app:layout_constraintTop_toBottomOf="@id/edit_yourlogin"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/button_yourpassword"
+        android:alpha="0.3"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       app:layout_constraintTop_toBottomOf="@id/edittext_yourpassword"
+        android:layout_margin="20dp"
+        android:text="Sign Up"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/text_sign_up_down"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient2"
+        app:layout_constraintTop_toBottomOf="@id/button_yourpassword"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/button_signup_down"
+        android:alpha="0.3"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subscribe?"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toStartOf="@id/button_yourpassword"
+        app:layout_constraintTop_toBottomOf="@id/button_signup_down"
+        android:layout_marginTop="20dp"
+        android:id="@+id/subscribe"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        app:layout_constraintEnd_toEndOf="@id/button_signup_down"
+        app:layout_constraintTop_toBottomOf="@id/button_signup_down"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/text_signin_down"
+        />
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

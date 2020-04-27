@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111">
+
+
+    <TextView
+
+        android:id="@+id/top_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gsix Academy"
+        android:textColor="#ffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/top_textview"
+        android:id="@+id/Button_ime_prezime"
+        android:alpha="0.4"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ime i prezime"
+            android:textColorHint="#ffff"
+            android:layout_margin="20dp"
+            app:layout_constraintTop_toBottomOf="@id/top_textview"
+            android:id="@+id/edittex_ime_prezime"
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/Button_ime_prezime"
+        android:id="@+id/Grad"
+        android:alpha="0.4"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Grad"
+        android:textColorHint="#ffff"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/Button_ime_prezime"
+        android:id="@+id/edittex_grad"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/Grad"
+        android:id="@+id/Drzava"
+        android:alpha="0.4"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Drzava"
+        android:textColorHint="#ffff"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/Grad"
+        android:id="@+id/edittext_drzava"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/Drzava"
+        android:id="@+id/rodenden"
+        android:alpha="0.4"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rodenden"
+        android:textColorHint="#ffff"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/edittext_drzava"
+        android:id="@+id/edit_text_rodenden"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/rodenden"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="DODAJ"
+        android:textColor="#ffff"
+        android:background="#FF0090"
+        android:id="@+id/button_dodaj"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_bottom"
+        android:text="Jas sum Petko Petkovski roden vo Skopje,Makedonija na den 27.11.1990"
+        android:textColor="#ffff"
+       app:layout_constraintTop_toBottomOf="@id/button_dodaj"
+        android:layout_margin="20dp"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
